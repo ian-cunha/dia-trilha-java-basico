@@ -1,6 +1,38 @@
 public class Operadores {
     public static void main(String[] args) {
 
+        String nomeUm = "IAN";
+        String nomeDois = new String ("IAN");
+
+        System.out.println(nomeUm.equals(nomeDois));
+        
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        if (numero1 < numero2) {
+            System.out.println("a nossa condicao é verdadeira");
+        }
+
+        boolean simNao = numero1 == numero2;
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+        System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+        /*
+         * int a, b;
+         * a = 6;
+         * b = 6;
+         * 
+         * int resultado = a == b ? 1 : 0;
+         * 
+         * System.out.println(resultado);
+         */
+
         /*
          * String nome = "Ian Cunha";
          * int idade = 24;
@@ -35,11 +67,12 @@ public class Operadores {
          * System.out.println(numero);
          */
 
-
-         boolean variavel = true;
-
-         variavel = !variavel;
-
-         System.out.println(variavel);
+        /*
+         * boolean variavel = true;
+         * 
+         * variavel = !variavel;
+         * 
+         * System.out.println(variavel);
+         */
     }
 }
