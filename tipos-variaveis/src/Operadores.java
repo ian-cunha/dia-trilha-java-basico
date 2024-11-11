@@ -1,27 +1,42 @@
 public class Operadores {
     public static void main(String[] args) {
 
-        String nomeUm = "IAN";
-        String nomeDois = new String ("IAN");
+        boolean condicao1 = true;
+        boolean condicao2 = true;
 
-        System.out.println(nomeUm.equals(nomeDois));
-        
-
-        int numero1 = 1;
-        int numero2 = 2;
-
-        if (numero1 < numero2) {
-            System.out.println("a nossa condicao é verdadeira");
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condicoes sao verdadeiras");
         }
 
-        boolean simNao = numero1 == numero2;
-        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+        if (condicao1 || condicao2) {
+            System.out.println("Uma das condicoes é verdadeiras");
+        }
 
-        simNao = numero1 != numero2;
-        System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+        System.out.println("fim");
 
-        simNao = numero1 > numero2;
-        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+        /*
+         * String nomeUm = "IAN";
+         * String nomeDois = new String ("IAN");
+         * 
+         * System.out.println(nomeUm.equals(nomeDois));
+         * 
+         * 
+         * int numero1 = 1;
+         * int numero2 = 2;
+         * 
+         * if (numero1 < numero2) {
+         * System.out.println("a nossa condicao é verdadeira");
+         * }
+         * 
+         * boolean simNao = numero1 == numero2;
+         * System.out.println("numeroUm é igual a numeroDois? " + simNao);
+         * 
+         * simNao = numero1 != numero2;
+         * System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+         * 
+         * simNao = numero1 > numero2;
+         * System.out.println("numeroUm é maior que numeroDois? " + simNao);
+         */
 
         /*
          * int a, b;
